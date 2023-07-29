@@ -1,0 +1,51 @@
+.inputs{
+    @extend %inputs
+}
+
+.txtarea{
+    @include textarea(458px, 212px)
+}
+
+.main_text{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    margin-bottom: 115px;
+    text-align: center;
+}
+
+.inputs:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.input_div{
+    width: 455px;
+    margin-right: 28px;
+    margin-bottom: 29px;
+}
+
+.flex{
+    display: flex;
+}
+
+.button{
+    display: block;
+    margin: 0 auto;
+    width: 242px;
+    height: 68px;
+    background-color: #FED136;
+    color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+}
+

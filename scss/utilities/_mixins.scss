@@ -1,0 +1,12 @@
+@mixin textarea($width, $height){width: $width; height: $height; color: #BBB;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+    padding-top: 14px;
+    padding-left: 22px;
+    padding-bottom: 181px;
+}
